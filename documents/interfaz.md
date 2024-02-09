@@ -33,6 +33,7 @@ Esta API crea una nueva conversación y envía la primera pregunta al empleado.
   "employeeId": "123456789",
   "questionsId": ["1", "2", "3"]
 }
+```
 
 #### Respuesta:
 - Código de estado HTTP: 200 OK
@@ -44,9 +45,11 @@ Esta API crea una nueva conversación y envía la primera pregunta al empleado.
 {
   "message": "Creacion de conversacion exitosa"
 }
+```
 
 ##### Ejemplo de respuesta con error:
 ```json
 {
   "message": "Una de las preguntas enviadas no existe"
 }
+```
